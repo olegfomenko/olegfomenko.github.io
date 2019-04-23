@@ -37,6 +37,7 @@ function todoFabric() {
 				if(taskText.value == "") {
 					//taskText.style.borderWidth = "1px";
 					taskText.style.boxShadow = "0 0 8px 0 red";
+					taskText.focus();
 				} else {
 					//taskText.style.borderWidth = "0px";
 					taskText.style.boxShadow = "0 0 0px 0 red";
