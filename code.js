@@ -13,7 +13,7 @@ function todoFabric() {
 			todoName.value = "";
 			todoName.style.width = "86%";
 			todoName.style.color = "white";
-			todoName.style.fontSize = "30px";
+			todoName.style.fontSize = "25px";
 			todoName.style.height = "25px";
 			header.appendChild(todoName);
 
