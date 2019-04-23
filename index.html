@@ -51,8 +51,15 @@
 			addTask.className = "add_button";
 			addTask.src = "add_button.png";
 			addTask.addEventListener("click", function() {
-				add_task(todo, taskText.value);
-				taskText.value = "";
+				if(taskText.value == "") {
+					//taskText.style.borderWidth = "1px";
+					taskText.style.boxShadow = "0 0 8px 0 red";
+				} else {
+					//taskText.style.borderWidth = "0px";
+					taskText.style.boxShadow = "0 0 0px 0 red";
+					add_task(todo, taskText.value);
+					taskText.value = "";
+				}
 			});
 			taskLine.appendChild(addTask);
 

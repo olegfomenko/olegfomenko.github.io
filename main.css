@@ -1,3 +1,12 @@
+html {
+	height: 100%;
+	width: 100%;
+	background-image: url(sunflowers.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
 .main {
 	width: 100%;
 	display: flex;
@@ -26,6 +35,8 @@
 	border-style: solid;
 	border-width: 1px;
 	border-color: #b3b5b7;
+
+	box-shadow: 0 0 10px 0 #b3b5b7;
 }
 
 .taskLine {
@@ -67,6 +78,10 @@
 
 	padding-left: 2%;
 	padding-right: 2%;
+
+	box-shadow: 0px 1px 2px 0 #024470;
+
+	z-index: 10;
 }
 
 .task {
@@ -88,7 +103,12 @@
 
 .field {
 	height: 50%;
-	border: 0;
+
+	border-style: solid;
+	border-width: 0px;
+	border-color: red;
+
+	box-shadow: 0 0 0px 0 red;
 
 	font-family: Calibri;
 	font-size: 20px;
@@ -166,4 +186,6 @@ button {
 
 	width: 150px;
 	height: 40px;
+
+	box-shadow: 0 0 5px 0 #045c96;
 }
