@@ -1,0 +1,169 @@
+.main {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.todo {
+	width: 60%;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;	
+
+	background: #e5e8ea;
+
+	margin: 20px;
+	padding: 0px;
+	padding-bottom: 50px;
+
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: #b3b5b7;
+}
+
+.taskLine {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	width: 96%;
+	height: 50px;
+	background: #d2d5d8;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: #b3b5b7;
+
+	padding-left: 2%;
+	padding-right: 2%;
+
+	margin: 0;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	width: 96%;
+	height: 50px;
+	background: #045c96;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: #024470;
+
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.task {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	width: 96%;
+	height: 40px;
+
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #b3b5b7;
+
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.field {
+	height: 50%;
+	border: 0;
+
+	font-family: Calibri;
+	font-size: 20px;
+}
+
+.name {
+	background-color: inherit;
+	font-size: 20px;
+	width: 80%;
+
+	font-family: Calibri;
+	font-size: 20px;
+	color: #535354;
+}
+
+input {
+	border-radius: 3px;
+	border: 0;
+	height: 20px;
+
+	font-family: Calibri;
+	font-size: 20px;
+}
+
+button {
+	padding: 0;
+	font-size: 15px;
+	font-family: Calibri;
+}
+
+.add_button {
+	width: 36px;
+	height: 36px;
+}
+
+.add_button:hover {
+	width: 36px;
+	height: 36px;
+	opacity: 0.8;
+}
+
+.edit_button {
+	width: 25px;
+	height: 25px;
+}
+
+.edit_button:hover {
+	width: 25px;
+	height: 25px;
+	opacity: 0.8;
+}
+
+.delete_button {
+	width: 25px;
+	height: 25px;
+}
+
+.delete_button:hover {
+	width: 25px;
+	height: 25px;
+	opacity: 0.8;
+}
+
+.add_todo_button {
+	background: #045c96;
+
+	border-style: solid;
+	border-width: 0px;
+	border-color: white;
+	border-radius: 15px;
+
+	font-family: Calibri;
+	font-size: 20px;
+	color: white;
+
+	width: 150px;
+	height: 40px;
+}
