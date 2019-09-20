@@ -1,7 +1,7 @@
 html {
 	height: 100%;
 	width: 100%;
-	background-image: url(sunflowers.png);
+	background-image: url(../img/sunflowers.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
